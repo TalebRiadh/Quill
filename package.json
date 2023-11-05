@@ -9,19 +9,44 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kinde-oss/kinde-auth-nextjs": "^1.8.22",
+    "@prisma/client": "^5.4.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tanstack/react-query": "^4.36.1",
+    "@trpc/client": "^10.40.0",
+    "@trpc/next": "^10.40.0",
+    "@trpc/react-query": "^10.40.0",
+    "@trpc/server": "^10.40.0",
+    "@uploadthing/react": "^5.7.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.279.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-dropzone": "^14.2.3",
+    "react-loading-skeleton": "^3.3.1",
+    "react-pdf": "^7.5.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^5.7.4",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "^5.4.1",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
